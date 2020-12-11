@@ -20,7 +20,7 @@ function App() {
     
     .then(res => {
       setNasaPicData(res.data)
-      console.log('.then APP' , res.data)
+      
     })
     .catch(beef => {
       console.log('Failure in App.js', beef)

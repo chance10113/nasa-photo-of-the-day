@@ -12,7 +12,7 @@ export default function Content({nasaPicData}){
                 <h2> {date} </h2>
                 
             </StyledHeader>
-             { media_type === 'video'?  < ReactPlayer  url={url} /> : < img src = {url} alt = {title}/>}
+             { media_type === 'video'?  < ReactPlayer  url={url} /> : < StyledImg src = {url} alt = {title}/>}
              <StyledDiv>
              <h2> {title} </h2>
              <p> {explanation} </p>
@@ -43,6 +43,15 @@ const StyledHeader = styled.header`
 color: ${(pr) => (pr.theme.white) };
 background: ${(pr) => (pr.theme.black) };
 `;
+
+const StyledImg = styled.img `
+/* display:flex;
+align-content: center;
+justify-content: center;
+align-items: center; */
+width: 90%;  
+margin: 0% 5% 0 5%
+`
 
 const StyledDiv = styled.div `
 
