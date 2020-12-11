@@ -57,6 +57,7 @@ const StyledDiv = styled.div `
 
 color: ${(pr) => (pr.theme.white) };
 background-color: #222222;
+margin: 1% 2% 0 2%;
 `
 
 const StyledFooter = styled.footer `
