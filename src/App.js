@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-import Content from "./Content-Card.js";
+import Content from "./Content-card";
 
 const nasaPicDataDefault = {
   url: "",
