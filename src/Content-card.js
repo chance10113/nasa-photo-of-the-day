@@ -1,7 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player/youtube";
 import styled from "styled-components";
-import "./App.css";
+//import "./App.css";
 export default function Content({ nasaPicData }) {
   const { url, date, title, media_type, explanation } = nasaPicData;
   return (
