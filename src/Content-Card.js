@@ -41,8 +41,6 @@ export default function Content({ nasaPicData }) {
 }
 
 const StyledSection = styled.section`
-  /* background-image: url('https://wallpaperaccess.com/full/296728.png'); */
-  /* background-repeat: no-repeat; */
   background-color: #222222;
   color: ${(pr) => pr.theme.white};
   text-align: center;
@@ -67,4 +65,5 @@ const StyledTextContent = styled.div`
 const StyledFooter = styled.footer`
   color: ${(pr) => pr.theme.white};
   background: ${(pr) => pr.theme.black};
+  padding: 1% 4% 1% 4%;
 `;

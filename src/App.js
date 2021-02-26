@@ -8,12 +8,15 @@ const nasaPicDataDefault = {
   media_type: "",
   explanation: "",
 };
+
+const url = "https://api.nasa.gov/planetary/apod/?api_key=DEMO_KEY"
+
 function App() {
   const [nasaPicData, setNasaPicData] = useState(nasaPicDataDefault);
   useEffect(() => {
     const fetchImage = () => {
       axios
-        .get("https://api.nasa.gov/planetary/apod/?api_key=DEMO_KEY")
+        .get(`${url}`)
 
         .then((res) => {
           setNasaPicData(res.data);
