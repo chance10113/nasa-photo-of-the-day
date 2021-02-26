@@ -5,8 +5,6 @@ import App from "./App";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ThemeProvider } from 'styled-components';
 import theme from './Theme-Holder';
-//Build Theme here, and add to render
-
 
 
 ReactDOM.render(
